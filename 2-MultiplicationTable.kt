@@ -6,9 +6,4 @@ fun multiplicationTable(size: Int) = (1..size).map { x -> (1..size).map { it * x
 
 fun main() {
     multiplicationTable(3).forEach { print("[ "); it.forEach { x -> print("$x ") }; print("]") } // [ 1 2 3 ][ 2 4 6 ][ 3 6 9 ]
-    println()
-    multiplicationTable(3).forEach { print("[ "); it.forEach { x -> print("$x ") }; print("]") } // [ 1 2 3 ][ 2 4 6 ][ 3 6 9 ]
-    println()
-    multiplicationTable(3).forEach { print("[ "); it.forEach { x -> print("$x ") }; print("]") } // [ 1 2 3 ][ 2 4 6 ][ 3 6 9 ]
-    println()
 }
